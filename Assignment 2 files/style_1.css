@@ -1,0 +1,44 @@
+a {
+  display: block;
+  color: black;
+  text-decoration: none;
+}
+
+#hover{
+  display:none;
+}
+
+a:hover #hover {
+  display: inline;
+}
+
+img{
+  display: none;
+}
+
+h2{
+  font-size: 16pt;
+}
+
+#wrapper{
+  padding: 50px;
+  width: 1100px;
+  border: solid;
+  font-family: monospace;
+  font-size: 16pt;
+}
+
+#title {
+
+  font-size: 16pt;
+  text-align: right;
+}
+
+#navigation {
+  text-align: right;
+}
+
+.sensitive{
+  color: black;
+  background-color: black;
+}
