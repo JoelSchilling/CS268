@@ -1,0 +1,56 @@
+html {
+  background: black;
+}
+
+body{
+  background-image: url('images/lambda.jpg');
+  background-size: 169px;
+}
+
+a{
+  display:block;
+  font-size: 25px;
+}
+
+img{
+  border: dotted;
+  border-color: green;
+  border-width: 20px;
+}
+
+h2{
+  font-family: "Papyrus";
+
+}
+
+#wrapper{
+  padding: 5px;
+  margin: 45px;
+  color: green;
+  text-align: center;
+}
+
+#title {
+  text-transform: uppercase;
+  font-family: "Papyrus";
+  color: green;
+}
+
+.section{
+  background: rgba(50, 50, 60, 0.7);
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding: 5px;
+}
+.subsection{
+  opacity: 1.0;
+  font-family: "Comic Sans MS";
+  text-transform: lowercase;
+  font-size: 12px;
+}
+
+.sensitive{
+  color: red;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
