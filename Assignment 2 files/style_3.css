@@ -4,28 +4,50 @@ html {
 
 body{
   background-image: url('images/lambda.jpg');
-  background-size: 169px;
+  background-size: 235px;
 }
 
 a{
   display:block;
-  font-size: 25px;
+  font-size: 40px;
+  font-family: "Times New Roman";
+}
+
+#hover{
+  display:none;
+}
+
+a:hover #hover{
+  display: inline;
+
+}
+a:hover #no_hover{
+  display: none;
 }
 
 img{
+
+  width: 455px;
+
   border: dotted;
   border-color: green;
-  border-width: 20px;
+  border-width: 30px;
+  padding: 10px;
 }
 
 h2{
+  font-size: 40px;
+  text-transform: uppercase;
   font-family: "Papyrus";
+}
 
+#navigation{
+  padding-bottom:5px;
 }
 
 #wrapper{
   padding: 5px;
-  margin: 45px;
+  margin: 75px;
   color: green;
   text-align: center;
 }
@@ -34,19 +56,22 @@ h2{
   text-transform: uppercase;
   font-family: "Papyrus";
   color: green;
+  font-size: 49px;
 }
 
 .section{
-  background: rgba(50, 50, 60, 0.7);
+  background: rgba(50, 50, 55, 0.7);
   margin-bottom: 50px;
   margin-top: 50px;
   padding: 5px;
 }
 .subsection{
+  margin: 12px;
+  margin-bottom: 65px;
   opacity: 1.0;
   font-family: "Comic Sans MS";
   text-transform: lowercase;
-  font-size: 12px;
+  font-size: 17px;
 }
 
 .sensitive{
