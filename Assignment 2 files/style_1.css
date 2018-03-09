@@ -21,6 +21,7 @@ h2{
 }
 
 #wrapper{
+  margin: auto;
   padding: 50px;
   width: 1100px;
   border: solid;
