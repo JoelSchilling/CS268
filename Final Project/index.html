@@ -3,41 +3,49 @@
 <html>
 
   <head>
+
     <link rel="stylesheet" type="text/css" href="./Css/theme.css">
-
-    <div class="header">
-      <h1>Welcome</h1>
-    </div>
-
+    <script src="js/login.js"></script>
   </head>
   <body>
+
+    <div class="header">
+      <div class="content">
+        <h1>Welcome</h1>
+      </div>
+
+      <button class="login" onclick="document.getElementById('01').style.display='block'">Login</button>
+
+      <div id="01" class="modal">
+        <span onclick="document.getElementById('01').style.display='none'">
+
+        <form class="modal-content animate" action="/action_page.php">
+          <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <button type="submit">Login</button>
+          </div>
+
+          <div class="container" style="background-color:#f1f1f1">
+            <button type="button" onclick="document.getElementById('01').style.display='none'" class="cancelbtn">Cancel</button>
+          </div>
+        </form>
+      </div>
 
       <div class="navigation">
         <h2>Navigation</h2>
       </div>
 
-      <div class="login">
-
-        <div>
-          <span>Login</span>
-          <input class="input_box">
-        </div>
-
-        <div>
-          <span>Password</span>
-          <input class="input_box">
-        </div>
-
-        <button>Submit</button>
-
-      </div>
 
       <div class="page">
         <h1>HELLLOOOOOOO!</h1>
       </div>
 
-
-  </body>
+    </body>
   <footer>
 
   </footer>
