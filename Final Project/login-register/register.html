@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+</head>
+<body>
+
+    <script src='js/validation.js'></script>    
+
+        
+    <h1>REGISTER</h1>
+    <p id="errorMessage"></p>
+    <form name='registerForm' action='login.html' method="POST" onsubmit="return registerValidation()">
+        <div>
+            <span>Username</span>
+            <input name='username' type='text' placeholder='Username' required>
+        </div>
+        <div>
+            <span>Password</span>
+            <input name='password' type='password' placeholder='Password' required>
+        </div>
+        <div>
+            <span>Retype Password</span>
+            <input name='retypePassword' type='password' placeholder='Password' required>
+        </div>        
+
+        
+        <button type='submit'>Register</button>        
+    </form>
+    <small>Already hav an account, login <a href='login.html'>here</a></small>
+    
+
+    
+</body>
+</html>
