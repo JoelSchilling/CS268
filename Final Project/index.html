@@ -3,11 +3,12 @@
 <html>
 
   <head>
-
-    <link rel="stylesheet" type="text/css" href="./Css/theme.css">
     <script src="js/login.js"></script>
+    <link rel="stylesheet" type="text/css" href="./Css/theme.css">
+
   </head>
   <body>
+
 
     <div class="header">
       <div class="content">
@@ -17,7 +18,7 @@
       <button class="login" onclick="document.getElementById('01').style.display='block'">Login</button>
 
       <div id="01" class="modal">
-        <span onclick="document.getElementById('01').style.display='none'">
+        <span>
 
         <form class="modal-content animate" action="/action_page.php">
           <div class="container">
@@ -31,7 +32,7 @@
           </div>
 
           <div class="container" style="background-color:#f1f1f1">
-            <button type="button" onclick="document.getElementById('01').style.display='none'" class="cancelbtn">Cancel</button>
+            <button id="02" type="button" onclick="closeLogin()" class="cancelbtn">Cancel</button>
           </div>
         </form>
       </div>
